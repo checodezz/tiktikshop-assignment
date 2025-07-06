@@ -177,7 +177,7 @@ export default function VirtualTryOnPage() {
               </div>
               <div>
                 <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-indigo-600 bg-clip-text text-transparent">
-                  Virtual Try-On Studio
+               TikTikShop
                 </h1>
                 <p className="text-sm text-gray-600 font-medium">AI-Powered Fashion Experience</p>
               </div>
@@ -195,7 +195,7 @@ export default function VirtualTryOnPage() {
                 className="hidden sm:flex border-indigo-200 text-indigo-700 bg-indigo-50 px-3 py-1"
               >
                 <Star className="h-3 w-3 mr-1" />
-                Powered by Fashn.ai
+                Most trusted AI Try-On
               </Badge>
             </div>
           </div>
@@ -518,7 +518,7 @@ export default function VirtualTryOnPage() {
       </div>
 
       {/* API Status Checker */}
-      <ApiStatusChecker />
+      {/* <ApiStatusChecker /> */}
     </div>
   );
 }
